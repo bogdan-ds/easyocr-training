@@ -1,9 +1,9 @@
 number: '0123456789'
-symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'en_filtered'
+symbol: ""
+lang_char: 'ABCEHKMOPTXY'
+experiment_name: 'bg_lps'
 train_data: 'all_data'
-valid_data: 'all_data/en_val'
+valid_data: 'all_data/val'
 manualSeed: 1111
 workers: 6
 batch_size: 32 #32
@@ -22,9 +22,9 @@ select_data: 'en_train_filtered' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
-imgH: 64
-imgW: 600
-rgb: False
+imgH: 80
+imgW: 240
+rgb: True
 contrast_adjust: False
 sensitive: True
 PAD: True
