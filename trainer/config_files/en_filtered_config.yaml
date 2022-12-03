@@ -1,9 +1,6 @@
-number: '0123456789'
-symbol: ""
-lang_char: 'ABCEHKMOPTXY'
 experiment_name: 'bg_lps'
-train_data: 'all_data'
-valid_data: 'all_data/val'
+train_data: '/home/bogdan/ML/lps/dataset'
+valid_data: '/home/bogdan/ML/lps/dataset/val'
 manualSeed: 1111
 workers: 6
 batch_size: 32 #32
@@ -18,7 +15,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'en_train_filtered' # this is dataset folder in train_data
+select_data: 'val' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
@@ -29,7 +26,7 @@ contrast_adjust: False
 sensitive: True
 PAD: True
 contrast_adjust: 0.0
-data_filtering_off: False
+data_filtering_off: True
 # Model Architecture
 Transformation: 'None'
 FeatureExtraction: 'VGG'
