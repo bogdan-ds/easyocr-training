@@ -56,7 +56,6 @@ class Batch_Balanced_Dataset(object):
             _dataset, _dataset_log = hierarchical_dataset(root=opt.train_data, opt=opt, select_data=[selected_d])
             total_number_dataset = len(_dataset)
             log.write(_dataset_log)
-
             """
             The total number of data can be modified with opt.total_data_usage_ratio.
             ex) opt.total_data_usage_ratio = 1 indicates 100% usage, and 0.2 indicates 20% usage.
@@ -146,8 +145,9 @@ class OCRDataset(Dataset):
         self.root = root
         self.opt = opt
         print(root)
-        self.df = pd.read_csv(os.path.join(root,'labels.csv'), sep='^([^,]+),', engine='python', usecols=['filename', 'words'], keep_default_na=False)
+        self.df = pd.read_csv(os.path.join(root,'labels.csv'), sep='^([^,]+),', engine='python', names=['filename', 'words'], keep_default_na=False)
         self.nSamples = len(self.df)
+        self.df.index = np.arange(1, self.nSamples + 1)
 
         if self.opt.data_filtering_off:
             self.filtered_index_list = [index + 1 for index in range(self.nSamples)]
