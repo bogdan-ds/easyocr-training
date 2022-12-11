@@ -1,0 +1,167 @@
+--------------------------------------------------------------------------------
+dataset_root: ~/ML/lps/dataset
+opt.select_data: ['val']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['val']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: val
+sub-directory:	/val	 num samples: 276
+num total samples of val: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of val per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['val']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: val
+sub-directory:	/val	 num samples: 276
+num total samples of val: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of val per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['val']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: val
+sub-directory:	/val	 num samples: 276
+num total samples of val: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of val per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['val']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: val
+sub-directory:	/val	 num samples: 276
+num total samples of val: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of val per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: 
+sub-directory:	/val	 num samples: 276
+num total samples of : 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of  per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/val	 num samples: 276
+num total samples of /home/bogdan/ML/lps/dataset: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/val	 num samples: 276
+num total samples of /home/bogdan/ML/lps/dataset: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/val	 num samples: 276
+num total samples of /home/bogdan/ML/lps/dataset: 276 x 1.0 (total_data_usage_ratio) = 276
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/.	 num samples: 1107
+num total samples of /home/bogdan/ML/lps/dataset: 1107 x 1.0 (total_data_usage_ratio) = 1107
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/.	 num samples: 1107
+num total samples of /home/bogdan/ML/lps/dataset: 1107 x 1.0 (total_data_usage_ratio) = 1107
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: /home/bogdan/ML/lps/dataset
+opt.select_data: ['/home/bogdan/ML/lps/dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/dataset	 dataset: /home/bogdan/ML/lps/dataset
+sub-directory:	/.	 num samples: 1107
+num total samples of /home/bogdan/ML/lps/dataset: 1107 x 1.0 (total_data_usage_ratio) = 1107
+num samples of /home/bogdan/ML/lps/dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    /home/bogdan/ML/lps/val	 dataset: /
+sub-directory:	/.	 num samples: 276
+--------------------------------------------------------------------------------

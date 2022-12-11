@@ -1,9 +1,9 @@
 lang_char: 'None'
 experiment_name: 'bg_lps'
 train_data: '/content/dataset'
-valid_data: '/content/dataset/val'
+valid_data: '/content/val'
 manualSeed: 1111
-workers: 6
+workers: 2
 batch_size: 32 #32
 num_iter: 30000
 valInterval: 2000
@@ -16,7 +16,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'val' # this is dataset folder in train_data
+select_data: '/content/dataset' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
