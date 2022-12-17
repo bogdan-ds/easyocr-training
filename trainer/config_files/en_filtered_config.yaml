@@ -6,9 +6,9 @@ manualSeed: 1111
 workers: 2
 batch_size: 1 #32
 num_iter: 100000
-valInterval: 20000
+valInterval: 2000
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
-FT: False
+FT: True
 optim: False # default is Adadelta
 lr: 1.
 beta1: 0.9
@@ -24,19 +24,19 @@ imgH: 80
 imgW: 240
 rgb: True
 contrast_adjust: False
-sensitive: True
+sensitive: False
 PAD: True
 contrast_adjust: 0.0
 data_filtering_off: True
 # Model Architecture
-Transformation: 'None'
+Transformation: 'TPS'
 FeatureExtraction: 'VGG'
 SequenceModeling: 'BiLSTM'
 Prediction: 'CTC'
 num_fiducial: 20
 input_channel: 3
 output_channel: 512
-hidden_size: 512
+hidden_size: 256
 decode: 'greedy'
 new_prediction: False
 freeze_FeatureFxtraction: False
