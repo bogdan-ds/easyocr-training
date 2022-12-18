@@ -1,6 +1,6 @@
 lang_char: 'None'
 experiment_name: 'bg_lps'
-train_data: '/content/dataset'
+train_data: '/content'
 valid_data: '/content/val'
 manualSeed: 1111
 workers: 2
@@ -16,7 +16,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: '/content/dataset' # this is dataset folder in train_data
+select_data: 'dataset' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
@@ -24,7 +24,7 @@ imgH: 80
 imgW: 240
 rgb: True
 contrast_adjust: False
-sensitive: False
+sensitive: True
 PAD: True
 contrast_adjust: 0.0
 data_filtering_off: True
